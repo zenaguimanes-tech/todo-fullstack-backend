@@ -5,7 +5,7 @@ import os
 import datetime
 
 app = Flask(__name__)
-CORS(app, origins=["https://https://todo-fullstack-frontend-nine.vercel.app/"])
+CORS(app, origins=["https://todo-fullstack-frontend-nine.vercel.app"])
 
 
 def load_tasks():
